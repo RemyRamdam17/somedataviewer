@@ -1,0 +1,541 @@
+.trackingMasterPageContainer {
+    background : #ff522144 ;
+    position : absolute ;
+    top : 0px ;
+    width : 100vw ;
+    height : 100vh ;
+    display : flex ;
+    flex-direction : column ;
+    text-align : center ;
+    justify-content : flex-start ;
+    align-items : center ;
+  }
+  
+  .TrackingMasterContainers {
+    margin-top: 100px ;
+    position : absolute ;
+    display : flex ;
+    flex-direction : row ;
+    width : 95vw ;
+    justify-content : 'flex-start' ;
+    align-items : 'center' ;
+  }
+    
+    
+  .TrackingMasterSynthesisContainer {
+    margin-top: 60px ;
+    width : 33vw ;
+    height : 80vh ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : space-between ;
+    align-items : center ;
+    border-right : 1px #121435 solid;
+  }
+  
+  .TrackingMasterSessionContainer {
+    margin-top: 60px ;
+    width : 60vw ;
+    height : 80vh ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : flex-start ;
+    align-items : center ;
+  }
+  
+  .TrackingMasterContainerItem {
+    margin : 10px 0px ;
+    width : 25vw ;
+    height : 380px ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+    align-items : center ;
+  }
+  
+  .TrackingMasterSynthesisCardTitle {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 24px ;
+    border-bottom : 1px solid #cecece ;
+  }
+  
+  .TrackingMasterSynthesisChartConfusionMatrix {
+    padding : 20px ;
+    width : 100% ;
+    height : 200px ;
+    border-radius: 10px ;
+    box-shadow:  17px 17px 29px #ff552233,
+                -17px -17px 29px #ff572233 ;
+  }
+    
+  .TrackingMasterSynthesisChartConfusionMatrixSwitch {
+    margin-top : -100px ;
+    margin-left : 80% ;
+  }
+    
+  .TrackingMasterSynthesisChartConfusionMatrixSwitchText {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 14px ;
+  }
+    
+  .TrackingMasterSynthesisChartConfusionMetrics {
+    padding : 10px ;
+    width : 100% ;
+    height : 200px ;
+    border-radius: 20px ;
+    box-shadow:  17px 17px 29px #ff552233,
+               -17px -17px 29px #ff572233 ;
+  }
+    
+    
+  .TrackingMasterSynthesisChartConfusionMetricsButtons {
+    margin-top : 10px ;
+    width : 95% ;
+    height : 120px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content: space-between ;
+    align-items: center ;
+  }
+    
+  .TrackingMasterSynthesisChartConfusionMetricsButton {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff572233 ;
+    font-size: 10px ;
+  }
+    
+  .TrackingMasterSynthesisChartConfusionMetricsButtonSelected {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff5522dd ;
+    font-size: 10px ;;
+  }
+  
+  .TrackingMasterSessionContainerFlexColumnLeft {
+    width : 45% ;
+    height : 80vh ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+    align-items: center ;
+  }
+  
+  .TrackingMasterSessionCardTitle {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 18px ;
+    border-bottom : 1px solid #cecece ;
+  }
+  
+  .TrackingMasterSessionContainerFlexColumnRight {
+    width : 55% ;
+    height : 80vh ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+    align-items: center ;
+  }
+  
+  .TrackingMasterSessionContainerItem {
+    margin : -10px 0px 25px 0px  ;
+    width : 80% ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : flex-start ;
+    align-items : center ;
+    border-radius: 10px ;
+    padding : 20px 20px ;
+    box-shadow:  17px 17px 29px #ff552233,
+                -17px -17px 29px #ff572233 ;
+  
+  }
+  
+  .TrackingMasterSessionContainerItemAlternate {
+    margin : -10px 0px 25px 0px  ;
+    width : 90% ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : center ;
+    align-items : center ;
+    border-radius: 10px ;
+    padding : 20px ;
+    box-shadow:  17px 17px 29px #ff552233,
+                -17px -17px 29px #ff572233 ;
+  }
+  
+  .TrackingMasterSessionCardInfo {
+    width : 50% ;
+    margin-top : 0px ;
+    min-width: 100px ;
+    height : 140px ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+  }
+  
+  .TrackingMasterSessionCardInfoText {
+    text-align: center ;
+    padding-left : 5px;
+    font-family : 'Raleway';
+    font-size : 12px ;
+    line-height : 0.05em ;
+    color : #121435 ;
+  }
+  
+  .TrackingMasterSessionCardF1Score {
+    width : 150px ;
+    height : 150px ;
+    margin-top : -10px ;
+  }
+  
+  .TrackingMasterSessionCardRadar {
+    width : 360px ;
+    height : 140px ;
+  }
+  
+  .TrackingMasterSessionCardConfusionMatrix {
+    width : 280px ;
+    height : 140px ;
+    border-bottom : 1px #12143533 solid ;
+  }
+
+  
+.ball {
+    width : 10px ;
+    height : 10px ;
+    padding : 2px ;
+}
+  
+.TrackingMasterSessionCardPropertiesTargets {
+    padding : 5px 5px 0px 15px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : flex-start ;
+    align-items: flex-start ;
+    flex-wrap : wrap ;
+    height : 30% ;
+}
+
+  .TrackingMasterSessionCardGauge {
+    align-self: center ;
+    width : 140px ;
+    height : 30% ;
+  }
+
+  
+  .TrackingMasterSessionCardProperties {
+    margin-left: 10px ;
+    width : 200px ;
+    height : 140px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : space-around ;
+  }
+  
+  .TrackingMasterSessionCardMetrics {
+    margin-left: 10px ;
+    width : 400px ;
+    height : 130px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : space-around ;
+  }
+  
+  .TrackingMasterSessionCardRuleTitle {
+    font-family : 'Raleway';
+    font-size : 14px ;
+    color : #121435 ;
+    padding : 0 ;
+  }
+  
+  .TrackingMasterSessionChartConfusionMetricsButtons {
+    margin-top : -10px ;
+    width : 85% ;
+    height : 40px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content: space-between ;
+    align-items: center ;
+  }
+    
+  .TrackingMasterSessionChartConfusionMetricsButton {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff572233 ;
+    font-size: 10px ;
+  }
+    
+  .TrackingMasterSessionChartConfusionMetricsButtonSelected {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff5522dd ;
+    font-size: 10px ;;
+  }
+  
+  .TrackingMasterSessionCardLevels {
+    width : 480px ;
+    height : 160px ;
+  }
+  
+  .TrackingMasterSessionCardRuleChangedBehaviour {
+    width : 480px ;
+    height : 150px ;
+  }
+  
+  .TrackingMasterSessionCardConsecutiveErrors {
+    width : 480px ;
+    height : 150px ;
+  }
+  
+  
+  
+  @media (orientation: portrait) {
+    .trackingMasterPageContainer {
+        background : #ff522144 ;
+        position : absolute ;
+        top : 0px ;
+        width : 100vw ;
+        height : 100vh ;
+        display : flex ;
+        flex-direction : column ;
+        text-align : center ;
+        justify-content : flex-start ;
+        align-items : center ;
+        overflow-x: hidden ;
+      }
+      
+      .TrackingMasterContainers {
+        flex-direction : column ;
+      }
+        
+        
+      .TrackingMasterSynthesisContainer {
+        width : 90vw ;
+        height : 100vh ;
+      }
+      
+      .TrackingMasterSessionContainer {
+        margin-top : 100px ;
+        width : 90vw ;
+        flex-direction: column ;
+      }
+      
+      .TrackingMasterContainerItem {
+        align-self: center;
+        width : 80vw ;
+      }
+      
+      .TrackingMasterSynthesisCardTitle {
+        color : #121435 ;
+        font-family : 'Raleway';
+        font-size : 24px ;
+        border-bottom : 1px solid #cecece ;
+      }
+      
+      .TrackingMasterSynthesisChartConfusionMatrix {
+        padding : 20px ;
+        width : 100% ;
+        height : 200px ;
+        border-radius: 10px ;
+        box-shadow:  17px 17px 29px #ff552233,
+                    -17px -17px 29px #ff572233 ;
+      }
+        
+      .TrackingMasterSynthesisChartConfusionMatrixSwitch {
+        margin-top : -100px ;
+        margin-left : 80% ;
+      }
+        
+      .TrackingMasterSynthesisChartConfusionMatrixSwitchText {
+        color : #121435 ;
+        font-family : 'Raleway';
+        font-size : 14px ;
+      }
+        
+      .TrackingMasterSynthesisChartConfusionMetrics {
+        padding : 10px ;
+        width : 100% ;
+        height : 200px ;
+        border-radius: 20px ;
+        box-shadow:  17px 17px 29px #ff552233,
+                   -17px -17px 29px #ff572233 ;
+      }
+        
+        
+      .TrackingMasterSynthesisChartConfusionMetricsButtons {
+        margin-top : 10px ;
+        width : 95% ;
+        height : 120px ;
+        display : flex ;
+        flex-direction : row ;
+        justify-content: space-between ;
+        align-items: center ;
+      }
+        
+      .TrackingMasterSynthesisChartConfusionMetricsButton {
+        width : 100px ;
+        height : 40px ;
+        color : #121435 ;
+        background-color : #ff572233 ;
+        font-size: 10px ;
+      }
+        
+      .TrackingMasterSynthesisChartConfusionMetricsButtonSelected {
+        width : 100px ;
+        height : 40px ;
+        color : #121435 ;
+        background-color : #ff5522dd ;
+        font-size: 10px ;;
+      }
+      
+      .TrackingMasterSessionContainerFlexColumnLeft {
+        width : 95vw ;
+        height : 120vh ;
+        display : flex ;
+        flex-direction : column ;
+        justify-content : flex-start ;
+        align-items: center ;
+      }
+      
+      .TrackingMasterSessionCardTitle {
+        color : #121435 ;
+        font-family : 'Raleway';
+        font-size : 14px ;
+        border-bottom : 1px solid #cecece ;
+      }
+      
+      .TrackingMasterSessionContainerFlexColumnRight {
+        margin-top : 20px ;
+        width : 90vw ;
+        height : 120vh ;
+        display : flex ;
+        flex-direction : column ;
+        justify-content : flex-start ;
+        align-items: center ;
+      }
+      
+      .TrackingMasterSessionContainerItem {
+        align-self:  center ;
+        margin-left : 2vw ;
+        width : 85vw ;
+        display : flex ;  
+      }
+      
+      .TrackingMasterSessionContainerItemAlternate {
+        margin-left : 2vw ;
+        width : 85vw ;
+      }
+      
+      .TrackingMasterSessionCardInfo {
+        width : 50% ;
+        margin-top : 0px ;
+        min-width: 100px ;
+        height : 140px ;
+        display : flex ;
+        flex-direction : column ;
+        justify-content : flex-start ;
+      }
+      
+      .TrackingMasterSessionCardInfoText {
+        text-align: center ;
+        padding-left : 5px;
+        font-family : 'Raleway';
+        font-size : 12px ;
+        line-height : 0.05em ;
+        color : #121435 ;
+      }
+      
+      .TrackingMasterSessionCardF1Score {
+        width : 120px ;
+        height : 140px ;
+        margin-top : -10px ;
+        padding : 0 ;
+        margin : 0 ;
+      }
+      
+      .TrackingMasterSessionCardRadar {
+        width : 220px ;
+        height : 120px ;
+      }
+      
+      .TrackingMasterSessionCardConfusionMatrix {
+        width : 180px ;
+        height : 140px ;
+        border-bottom : 1px #12143533 solid ;
+      }
+      
+      .TrackingMasterSessionCardRule {
+        margin-left: 10px ;
+        width : 180px ;
+        height : 140px ;
+        display: flex ;
+        flex-direction : column ;
+        justify-content : space-around ;
+      }
+      
+      .TrackingMasterSessionCardMetrics {
+        margin-left: 10px ;
+        width : 90% ;
+        height : 130px ;
+        display: flex ;
+        flex-direction : column ;
+        justify-content : space-around ;
+      }
+      
+      .TrackingMasterSessionCardRuleTitle {
+        font-family : 'Raleway';
+        font-size : 14px ;
+        color : #121435 ;
+        padding : 0 ;
+      }
+      
+      .TrackingMasterSessionChartConfusionMetricsButtons {
+        margin-top : -10px ;
+        width : 85% ;
+        height : 40px ;
+        display : flex ;
+        flex-direction : row ;
+        justify-content: space-between ;
+        align-items: center ;
+      }
+        
+      .TrackingMasterSessionChartConfusionMetricsButton {
+        width : 100px ;
+        height : 40px ;
+        color : #121435 ;
+        background-color : #ff572233 ;
+        font-size: 10px ;
+      }
+        
+      .TrackingMasterSessionChartConfusionMetricsButtonSelected {
+        width : 100px ;
+        height : 40px ;
+        color : #121435 ;
+        background-color : #ff5522dd ;
+        font-size: 10px ;;
+      }
+      
+      .TrackingMasterSessionCardHeatmap {
+        width : 90% ;
+        height : 160px ;
+      }
+      
+      .TrackingMasterSessionCardRuleChangedBehaviour {
+        width : 90% ;
+        height : 150px ;
+      }
+      
+      .TrackingMasterSessionCardConsecutiveErrors {
+        width : 90% ;
+        height : 150px ;
+      }
+    
+  }
+  

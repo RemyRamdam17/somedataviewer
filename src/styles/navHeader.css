@@ -1,0 +1,161 @@
+*:link {
+    text-decoration: none;
+}
+
+
+.navHeaderLandscape {
+    background : #ff5221 ;
+    width : 100vw ;
+    height : 80px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content: space-evenly ;
+    z-index: 3 ;
+    border-bottom: 1px solid #ff552299 ;
+    visibility : visible ;
+}
+
+.logoLeft {
+    margin-left: 20px ;
+    margin-top : 8px ;
+    width : 64px ;
+    height : 64px ;
+}
+
+.navHeaderList {
+    width : 70vw ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : space-evenly ;
+}
+
+.navEntry {
+    width : 180px ;
+    height : 40px ;
+    color : transparent ;
+    background-color : #ffffff33 ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : space-evenly ;
+    align-items : center ;
+    border-radius: 10px ;
+    border : 0.3px solid #ffffff66 ;
+}
+
+.navEntry:hover {
+    height : 45px ;
+    background-color : #ff552299 ;
+}
+
+.navEntry:active {
+    height : 50px ;
+    background-color : #ff5522cc ;
+}
+
+.navLabel {
+    font-family : 'Raleway';
+    font-size : 18px ;
+    color : white ;
+    width : 180px ;
+    height : 40px ;
+}
+  
+  
+.navSignOut {
+    margin : 10px 20px ;
+    width : 120px ;
+    height : 40px ;
+    background-color : #ffffff33 ;
+    border-radius : 10px ;
+    color : white ;
+    border : 0.3px solid #ffffff66 ;
+    font-family : 'Raleway';
+    font-size : 12px ;
+    z-index: 3 ;
+}
+
+.navHeaderPortrait {
+    visibility : hidden ;
+    width : 100vw ;
+    position : absolute ;
+    top : 0 ;
+}
+
+.logoRight {
+    position : absolute ;
+    top : 0 ;
+    right : 36px ;
+    top : 36px ;
+    width : 48px ;
+    height : 48px ;
+}
+
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+  
+.bm-burger-bars {
+    background : #ffffff ;
+}
+  
+.bm-burger-bars-hover {
+    background : #ffffff32 ;
+}
+  
+.bm-cross-button {
+    height : 64px ;
+    width : 64px ;
+}
+  
+.bm-cross {
+    background : #ffffff ;
+    width : 64px ;
+    height : 64px ;
+}
+
+.burger-item-list {
+    margin : 0 ;
+    height : 85vh ;
+    padding: 0.8em ;
+    background-color : #ff552233 ;
+}
+ 
+.burger-item-list:first-child {
+    padding-top : 100px ;
+}
+
+.burger-item {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-evenly ;
+    align-items: center ;
+}
+
+.burger-item-text {
+    width : 240px ;
+    align-self: center ;
+    color : white ;
+    background-color : #ff5522 ;
+    font-family : 'Raleway';
+    font-size : 32px ;
+    border-radius: 20px ;
+    padding : 10px 20px ;
+}
+
+
+
+@media (orientation: portrait) {
+
+    .navHeaderLandscape {
+        visibility : hidden ;
+    }
+    
+    .navHeaderPortrait {
+        visibility : visible ;
+    }
+}

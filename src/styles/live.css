@@ -1,0 +1,48 @@
+.livePageContainer {
+    background : #ff522144 ;
+    position : absolute ;
+    top : 0px ;
+    width : 100vw ;
+    height : 100vh ;
+    display : flex ;
+    flex-direction : column ;
+    overflow: scroll ;
+    text-align : center ;
+    justify-content : flex-start ;
+    align-items : center ;
+    overflow-x: hidden ;
+}
+
+.cardsContainer {
+    position : absolute ;
+    top : 120px ;
+    width : 90vw ;
+    min-height : 85vh ;
+    margin : 0 auto ;
+    display : flex ;
+    flex-direction : row ;
+    flex-wrap : wrap ;
+    justify-content : flex-start ;
+}
+
+button.rec-dot{
+    background-color: #ff552233 ;
+    box-shadow : none ;
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    background-color : #ff5522 ;
+}
+
+.rec.rec-arrow {
+    background-color : #ff552233 ;
+}
+
+.rec.rec-arrow:hover {
+    background-color : #ff5522 ;
+}
+
+@media (orientation: portrait) {
+
+  }
+

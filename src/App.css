@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,100&display=swap');
+
+.pageContainer {
+  background : linear-gradient(#ff5221, #ffffffcc  220%) ;
+  position : absolute ;
+  top : 0px ;
+  width : 100vw ;
+  height : 100vh ;
+  display : flex ;
+  flex-direction : column ;
+  overflow: scroll ;
+  text-align : center ;
+  justify-content : flex-start ;
+  align-items : center ;
+}
+
+.playerSelectSearch {
+  position : absolute ;
+  left : 3vw ;
+  width: 360px ;
+  font-family: 'Nunito Sans', sans-serif ;
+  box-sizing: border-box ;
+  z-index: 3 ;
+}
+
+.sessionSelectSearch {
+  position : absolute ;
+  left : 38vw ;
+  width: 280px ;
+  font-family: 'Nunito Sans', sans-serif ;
+  box-sizing: border-box ;
+  z-index: 3 ;
+}
+
+
+@media (orientation: portrait) {
+
+  .playerSelectSearch {
+    left : calc(50vw - 180px) ;
+  }
+
+  .sessionSelectSearch {
+    top : 115vh ;
+    left : calc(50vw - 140px) ;
+    height : 120px ;
+  }
+}  

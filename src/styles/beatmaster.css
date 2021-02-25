@@ -1,0 +1,517 @@
+.beatMasterPageContainer {
+  background : #ff522144 ;
+  position : absolute ;
+  top : 0px ;
+  width : 100vw ;
+  height : 100vh ;
+  display : flex ;
+  flex-direction : column ;
+  text-align : center ;
+  justify-content : flex-start ;
+  align-items : center ;
+}
+
+.BeatMasterContainers {
+  margin-top: 100px ;
+  position : absolute ;
+  display : flex ;
+  flex-direction : row ;
+  width : 95vw ;
+  justify-content : 'flex-start' ;
+  align-items : 'center' ;
+}
+  
+  
+.BeatMasterSynthesisContainer {
+  margin-top: 60px ;
+  width : 33vw ;
+  height : 80vh ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : space-between ;
+  align-items : center ;
+  border-right : 1px #121435 solid;
+}
+
+.BeatMasterSessionContainer {
+  margin-top: 60px ;
+  width : 60vw ;
+  height : 80vh ;
+  display : flex ;
+  flex-direction : row ;
+  justify-content : flex-start ;
+  align-items : center ;
+}
+
+.BeatMasterContainerItem {
+  margin : 10px 0px ;
+  width : 25vw ;
+  height : 380px ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : flex-start ;
+  align-items : center ;
+}
+
+.BeatMasterSynthesisCardTitle {
+  color : #121435 ;
+  font-family : 'Raleway';
+  font-size : 24px ;
+  border-bottom : 1px solid #cecece ;
+}
+
+.BeatMasterSynthesisChartConfusionMatrix {
+  padding : 20px ;
+  width : 100% ;
+  height : 200px ;
+  border-radius: 10px ;
+  box-shadow:  17px 17px 29px #ff552233,
+              -17px -17px 29px #ff572233 ;
+}
+  
+.BeatMasterSynthesisChartConfusionMatrixSwitch {
+  margin-top : -100px ;
+  margin-left : 80% ;
+}
+  
+.BeatMasterSynthesisChartConfusionMatrixSwitchText {
+  color : #121435 ;
+  font-family : 'Raleway';
+  font-size : 14px ;
+}
+  
+.BeatMasterSynthesisChartConfusionMetrics {
+  padding : 10px ;
+  width : 100% ;
+  height : 200px ;
+  border-radius: 20px ;
+  box-shadow:  17px 17px 29px #ff552233,
+             -17px -17px 29px #ff572233 ;
+}
+  
+  
+.BeatMasterSynthesisChartConfusionMetricsButtons {
+  margin-top : 10px ;
+  width : 95% ;
+  height : 120px ;
+  display : flex ;
+  flex-direction : row ;
+  justify-content: space-between ;
+  align-items: center ;
+}
+  
+.BeatMasterSynthesisChartConfusionMetricsButton {
+  width : 100px ;
+  height : 40px ;
+  color : #121435 ;
+  background-color : #ff572233 ;
+  font-size: 10px ;
+}
+  
+.BeatMasterSynthesisChartConfusionMetricsButtonSelected {
+  width : 100px ;
+  height : 40px ;
+  color : #121435 ;
+  background-color : #ff5522dd ;
+  font-size: 10px ;;
+}
+
+.BeatMasterSessionContainerFlexColumnLeft {
+  width : 45% ;
+  height : 80vh ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : flex-start ;
+  align-items: center ;
+}
+
+.BeatMasterSessionCardTitle {
+  color : #121435 ;
+  font-family : 'Raleway';
+  font-size : 18px ;
+  border-bottom : 1px solid #cecece ;
+}
+
+.BeatMasterSessionContainerFlexColumnRight {
+  width : 55% ;
+  height : 80vh ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : flex-start ;
+  align-items: center ;
+}
+
+.BeatMasterSessionContainerItem {
+  margin : -10px 0px 25px 0px  ;
+  width : 80% ;
+  display : flex ;
+  flex-direction : row ;
+  justify-content : flex-start ;
+  align-items : center ;
+  border-radius: 10px ;
+  padding : 20px 20px ;
+  box-shadow:  17px 17px 29px #ff552233,
+              -17px -17px 29px #ff572233 ;
+
+}
+
+.BeatMasterSessionContainerItemAlternate {
+  margin : -10px 0px 25px 0px  ;
+  width : 90% ;
+  display : flex ;
+  flex-direction : row ;
+  justify-content : center ;
+  align-items : center ;
+  border-radius: 10px ;
+  padding : 20px ;
+  box-shadow:  17px 17px 29px #ff552233,
+              -17px -17px 29px #ff572233 ;
+}
+
+.BeatMasterSessionCardInfo {
+  width : 50% ;
+  margin-top : 0px ;
+  min-width: 100px ;
+  height : 140px ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : flex-start ;
+}
+
+.BeatMasterSessionCardInfoText {
+  text-align: center ;
+  padding-left : 5px;
+  font-family : 'Raleway';
+  font-size : 12px ;
+  line-height : 0.05em ;
+  color : #121435 ;
+}
+
+.BeatMasterSessionCardF1Score {
+  width : 150px ;
+  height : 150px ;
+  margin-top : -10px ;
+}
+
+.BeatMasterSessionCardRadar {
+  width : 360px ;
+  height : 140px ;
+}
+
+.BeatMasterSessionCardConfusionMatrix {
+  width : 280px ;
+  height : 140px ;
+  border-bottom : 1px #12143533 solid ;
+}
+
+.BeatMasterSessionCardRule {
+  margin-left: 10px ;
+  width : 220px ;
+  height : 140px ;
+  display: flex ;
+  flex-direction : column ;
+  justify-content : space-around ;
+}
+
+.BeatMasterSessionCardMetrics {
+  margin-left: 10px ;
+  width : 400px ;
+  height : 130px ;
+  display: flex ;
+  flex-direction : column ;
+  justify-content : space-around ;
+}
+
+.BeatMasterSessionCardRuleTitle {
+  font-family : 'Raleway';
+  font-size : 14px ;
+  color : #121435 ;
+  padding : 0 ;
+}
+
+.BeatMasterSessionChartConfusionMetricsButtons {
+  margin-top : -10px ;
+  width : 85% ;
+  height : 40px ;
+  display : flex ;
+  flex-direction : row ;
+  justify-content: space-between ;
+  align-items: center ;
+}
+  
+.BeatMasterSessionChartConfusionMetricsButton {
+  width : 100px ;
+  height : 40px ;
+  color : #121435 ;
+  background-color : #ff572233 ;
+  font-size: 10px ;
+}
+  
+.BeatMasterSessionChartConfusionMetricsButtonSelected {
+  width : 100px ;
+  height : 40px ;
+  color : #121435 ;
+  background-color : #ff5522dd ;
+  font-size: 10px ;;
+}
+
+.BeatMasterSessionCardHeatmap {
+  width : 480px ;
+  height : 160px ;
+}
+
+.BeatMasterSessionCardRuleChangedBehaviour {
+  width : 480px ;
+  height : 150px ;
+}
+
+.BeatMasterSessionCardConsecutiveErrors {
+  width : 480px ;
+  height : 150px ;
+}
+
+
+
+@media (orientation: portrait) {
+
+  .beatMasterPageContainer {
+    background : #ff522144 ;
+    position : absolute ;
+    top : 0px ;
+    width : 100vw ;
+    height : 100vh ;
+    display : flex ;
+    flex-direction : column ;
+    text-align : center ;
+    justify-content : flex-start ;
+    align-items : center ;
+    overflow-x: hidden ;
+  }
+  
+  .BeatMasterContainers {
+    flex-direction : column ;
+  }
+    
+    
+  .BeatMasterSynthesisContainer {
+    width : 90vw ;
+    height : 100vh ;
+    border : 0px ;
+  }
+  
+  .BeatMasterSessionContainer {
+    margin-top : 100px ;
+    width : 90vw ;
+    flex-direction: column ;
+  }
+  
+  .BeatMasterContainerItem {
+    align-self: center;
+    width : 80vw ;
+  }
+  
+  .BeatMasterSynthesisCardTitle {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 24px ;
+    border-bottom : 1px solid #cecece ;
+  }
+  
+  .BeatMasterSynthesisChartConfusionMatrix {
+    padding : 20px ;
+    width : 100% ;
+    height : 200px ;
+    border-radius: 10px ;
+    box-shadow:  17px 17px 29px #ff552233,
+                -17px -17px 29px #ff572233 ;
+  }
+    
+  .BeatMasterSynthesisChartConfusionMatrixSwitch {
+    margin-top : -100px ;
+    margin-left : 80% ;
+  }
+    
+  .BeatMasterSynthesisChartConfusionMatrixSwitchText {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 14px ;
+  }
+    
+  .BeatMasterSynthesisChartConfusionMetrics {
+    padding : 10px ;
+    width : 100% ;
+    height : 200px ;
+    border-radius: 20px ;
+    box-shadow:  17px 17px 29px #ff552233,
+               -17px -17px 29px #ff572233 ;
+  }
+    
+    
+  .BeatMasterSynthesisChartConfusionMetricsButtons {
+    margin-top : 10px ;
+    width : 95% ;
+    height : 120px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content: space-between ;
+    align-items: center ;
+  }
+    
+  .BeatMasterSynthesisChartConfusionMetricsButton {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff572233 ;
+    font-size: 10px ;
+  }
+    
+  .BeatMasterSynthesisChartConfusionMetricsButtonSelected {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff5522dd ;
+    font-size: 10px ;;
+  }
+  
+  .BeatMasterSessionContainerFlexColumnLeft {
+    width : 95vw ;
+    height : 120vh ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+    align-items: center ;
+  }
+  
+  .BeatMasterSessionCardTitle {
+    color : #121435 ;
+    font-family : 'Raleway';
+    font-size : 14px ;
+    border-bottom : 1px solid #cecece ;
+  }
+  
+  .BeatMasterSessionContainerFlexColumnRight {
+    margin-top : 20px ;
+    width : 90vw ;
+    height : 120vh ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+    align-items: center ;
+  }
+  
+  .BeatMasterSessionContainerItem {
+    align-self:  center ;
+    margin-left : 2vw ;
+    width : 85vw ;
+    display : flex ;  
+  }
+  
+  .BeatMasterSessionContainerItemAlternate {
+    margin-left : 2vw ;
+    width : 85vw ;
+  }
+  
+  .BeatMasterSessionCardInfo {
+    width : 50% ;
+    margin-top : 0px ;
+    min-width: 100px ;
+    height : 140px ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : flex-start ;
+  }
+  
+  .BeatMasterSessionCardInfoText {
+    text-align: center ;
+    padding-left : 5px;
+    font-family : 'Raleway';
+    font-size : 12px ;
+    line-height : 0.05em ;
+    color : #121435 ;
+  }
+  
+  .BeatMasterSessionCardF1Score {
+    width : 120px ;
+    height : 140px ;
+    margin-top : -10px ;
+    padding : 0 ;
+    margin : 0 ;
+  }
+  
+  .BeatMasterSessionCardRadar {
+    width : 220px ;
+    height : 120px ;
+  }
+  
+  .BeatMasterSessionCardConfusionMatrix {
+    width : 180px ;
+    height : 140px ;
+    border-bottom : 1px #12143533 solid ;
+  }
+  
+  .BeatMasterSessionCardRule {
+    margin-left: 10px ;
+    width : 180px ;
+    height : 140px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : space-around ;
+  }
+  
+  .BeatMasterSessionCardMetrics {
+    margin-left: 10px ;
+    width : 90% ;
+    height : 130px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : space-around ;
+  }
+  
+  .BeatMasterSessionCardRuleTitle {
+    font-family : 'Raleway';
+    font-size : 14px ;
+    color : #121435 ;
+    padding : 0 ;
+  }
+  
+  .BeatMasterSessionChartConfusionMetricsButtons {
+    margin-top : -10px ;
+    width : 85% ;
+    height : 40px ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content: space-between ;
+    align-items: center ;
+  }
+    
+  .BeatMasterSessionChartConfusionMetricsButton {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff572233 ;
+    font-size: 10px ;
+  }
+    
+  .BeatMasterSessionChartConfusionMetricsButtonSelected {
+    width : 100px ;
+    height : 40px ;
+    color : #121435 ;
+    background-color : #ff5522dd ;
+    font-size: 10px ;;
+  }
+  
+  .BeatMasterSessionCardHeatmap {
+    width : 90% ;
+    height : 160px ;
+  }
+  
+  .BeatMasterSessionCardRuleChangedBehaviour {
+    width : 90% ;
+    height : 150px ;
+  }
+  
+  .BeatMasterSessionCardConsecutiveErrors {
+    width : 90% ;
+    height : 150px ;
+  }
+}
